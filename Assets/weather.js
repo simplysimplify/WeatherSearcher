@@ -12,7 +12,7 @@ var uvImage
 
 // I hate api's this is insufferably difficult to troubleshoot.
 subBtn.on('click', function () {
-	var getCoordsUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + stateTA[0].value + "," + cityTA[0].value + "&appid=" + APIkey
+	var getCoordsUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + stateTA[0].value + "," + cityTA[0].value + "&appid=" + APIkey
 	fetch(getCoordsUrl)
 		.then(function (response) {
 			return response.json()
