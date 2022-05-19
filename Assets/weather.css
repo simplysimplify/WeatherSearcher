@@ -1,0 +1,40 @@
+nav {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+header {
+	height: fit-content;
+}
+
+textarea {
+	min-width: 15vw;
+	max-width: fit-content;
+	height: 20px;
+	resize: none;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+button {
+	margin-top: 5px;
+	width: fit-content;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.column {
+	display: flex;
+	
+	background-image: linear-gradient(rgb(187, 205, 255), lightblue);
+	margin: 15px;
+	flex-direction: column;
+}
